@@ -11,7 +11,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Destinos.com</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -51,7 +51,7 @@
   </nav>
 
   <!-- carrusel -->
-
+<div class="container-fluid">
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -73,18 +73,56 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
+</div>
 <!-- tarjetas -->
 
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="europa.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Europa en 10 dias!</h5>
+          <p class="card-text">Viaje por los ciudades más impactantes del viejo continente.</p>
+          <a href="#" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="charter.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Viajá rápido</h5>
+          <p class="card-text">Únicamente para viajes domésticos.</p>
+          <a href="#" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="crucero.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">14 días a la mar</h5>
+          <p class="card-text">Tus vacaciones en un Crucero totalmente equipado.</p>
+          <a href="#" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
+<!-- Formulario -->
+
+<div class="container-fluid mb-3">
+  <h3>Ponte en contacto con nosortos</h3>
+  <label for="exampleFormControlInput1" class="form-label">Dirección de mail</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Escribe tu consulta</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="button" class="btn btn-primary">Enviar</button>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
